@@ -1,0 +1,171 @@
+/* reset */
+
+body, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+input {
+  margin: 0;
+}
+
+/* */
+
+
+body {
+  background: #F6F5F7;
+}
+
+
+/* header */
+
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #17092C;
+  max-width: 100%;
+  width: 100%;
+}
+
+.header__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding: 16px 0 ;
+}
+
+.header-title__color {
+  color: #52B45B;
+}
+
+/* main */
+
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-container__content {
+  padding: 32px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background: #FFF;
+  border-radius: 4px;
+}
+
+.login__title {
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 1.5rem 2rem 2rem 2rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.email-form__container {
+  margin-bottom: 20px;
+}
+
+.email-form-input__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  color: #000000;
+}
+
+.email-form__input {
+  width: 22rem;
+  height: 3rem;
+  border: 1px solid #87848F;
+  border-radius: 5px;
+  padding: 0 0 0 16px;
+}
+
+.password-form__container {
+  margin-bottom: 20px;
+}
+
+.password-form-input__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.password-form__input {
+  position: relative;
+  width: 22rem;
+  height: 3rem;
+  border: 1px solid #87848F;
+  border-radius: 5px;
+  padding: 0 0 0 16px;
+}
+
+.eye__icon {
+  position: absolute;
+  right: 504px;
+  top: 370px;
+}
+
+.stay-connected__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.stay-connected__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #000000; 
+}
+
+.login__btn {
+  width: 23.125rem;
+  height: 48px;
+  margin-bottom: 84px;
+  background: #2E046D;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.not-have-an-account__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-have-an-account__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E046D;
+  text-decoration: none;
+}
